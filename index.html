@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sliding Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a4e1a8cbac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="gallery">
+    <div style="color: aliceblue; text-align: center; margin-top: 10px; margin-bottom: 10px; font-size: medium; font-family: serif;">
+      <h1>Image Gallery</h1>
+    </div>
+    <div class="thumbnails">
+      <span class="icon" style="border-radius: 5px 0 0 5px;">
+        <i class="fa-solid fa-chevron-left" onclick="prevImage()"></i>
+      </span>
+      
+      <ul class="image-list">
+        <li class="img"><img src="images/image1.jpeg" alt=""></li>
+        <li class="img"><img src="images/image2.jpeg" alt=""></li>
+        <li class="img"><img src="images/image3.jpeg" alt=""></li>
+        <li class="img"><img src="images/image4.jpeg" alt=""></li>
+        <li class="img"><img src="images/image5.jpeg" alt=""></li>
+        <li class="img"><img src="images/image6.jpeg" alt=""></li>
+        <li class="img"><img src="images/image7.jpeg" alt=""></li>
+        <li class="img"><img src="images/image8.jpeg" alt=""></li>
+        <li class="img"><img src="images/image9.jpeg" alt=""></li>
+        <li class="img"><img src="images/image10.jpeg" alt=""></li>
+
+      </ul>
+      
+      <span class="icon" style="border-radius: 0 5px 5px 0;">
+        <i class="fa-solid fa-chevron-right" onclick="nextImage()"></i>
+      </span>
+    </div>
+    
+   <div class="main-image-container">
+    <span class="icon" style="border-radius: 5px 0 0 5px;" onclick="prevImage()">
+      <i class="fa-solid fa-chevron-left" ></i>
+    </span>
+    <div class="main-image">
+      <img id="mainImage" src="" alt="Main Image">
+    </div>
+    <span class="icon" style="border-radius: 0 5px 5px 0;" onclick="nextImage()">
+      <i class="fa-solid fa-chevron-right" ></i>
+    </span>
+   </div>
+   
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
