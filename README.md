@@ -3,4 +3,4 @@ live-
 
 https://nkagrawalgkt.github.io/PhotoGallery/
 
-<img width="932" alt="image" src="https://github.com/nkagrawalgkt/PhotoGallery/assets/88946170/b5a230e4-1e6b-45cf-aea8-419025313fea">
+<img width="932" alt="image" src="blob:https://github.com/9cfdb7f6-2456-4b22-bfc8-732af2616b8e">
